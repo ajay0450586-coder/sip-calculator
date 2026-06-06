@@ -1,0 +1,30 @@
+sip-calculator/
+├── public/
+├── src/
+│   ├── components/
+│   │   ├── Calculator/
+│   │   │   ├── Calculator.jsx
+│   │   │   └── Calculator.module.scss
+│   │   ├── InputField/
+│   │   │   ├── InputField.jsx
+│   │   │   └── InputField.module.scss
+│   │   ├── ResultCard/
+│   │   │   ├── ResultCard.jsx
+│   │   │   └── ResultCard.module.scss
+│   │   └── Chart/
+│   │       ├── Chart.jsx
+│   │       └── Chart.module.scss
+│   ├── hooks/
+│   │   └── useSipCalculator.js
+│   ├── styles/
+│   │   ├── _variables.scss
+│   │   ├── _mixins.scss
+│   │   └── global.scss
+│   ├── utils/
+│   │   └── formatCurrency.js
+│   ├── App.jsx
+│   ├── App.module.scss
+│   └── main.jsx
+├── index.html
+├── package.json
+└── vite.config.js
